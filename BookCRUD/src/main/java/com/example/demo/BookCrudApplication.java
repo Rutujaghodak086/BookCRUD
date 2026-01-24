@@ -16,6 +16,7 @@ public class BookCrudApplication {
 		BookService bs=new BookService();
 		bs.br.save(new Book(111, "Java", "Rutuja", 500f));
 		
+		
 	}
 
 }
