@@ -9,15 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BookCrudApplication {
 
-    private final BookService bookService;
-
-
-    BookCrudApplication(BookService bookService) {
-        this.bookService = bookService;
-    }
 	
-	
-
 	public static void main(String[] args) {
 		SpringApplication.run(BookCrudApplication.class, args);
 		
